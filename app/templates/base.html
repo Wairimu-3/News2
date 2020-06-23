@@ -1,0 +1,40 @@
+{% extends 'bootstrap/base.html'%}
+<DOCTYPE html>
+<head>
+    <title>Welcome to News App</title>
+    {% block styles %}
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+    #allmysources{
+        background-image: url("https://user-images.githubusercontent.com/44394821/80339215-d3392200-8866-11ea-8d6b-2f21fcc0f6f6.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .card{
+        background-color: rgba(27, 56, 63, 0.8);
+        color: cornsilk;
+    }
+    .card-title{
+        color: black;
+    }
+    </style>
+    {% endblock %}
+</head>
+<body>
+    {% block navbar %}
+    {% include "navbar.html" %}
+    {% endblock %}
+    {% block content %}
+    {% endblock %}
+    {% block scripts %}
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    {% endblock %}
+</body>
+</DOCTYPE html>
+
+
+
