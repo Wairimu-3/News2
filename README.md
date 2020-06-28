@@ -16,4 +16,8 @@
 
 - Run the application: $ ./start.sh
 
-+ Now navigate to your browser at: localhost:http://127.0.0.1:5000/
++ Now navigate to your browser at: localhost: http://127.0.0.1:5000/
+
+### Known bugs
+
+- There are no known bugs.
