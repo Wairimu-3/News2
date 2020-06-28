@@ -5,6 +5,17 @@
 - News app is an application created using python(3.8) and flask.It is a website where a user can view news from various news sources.
 + News app uses an API to access news from the source.
 
+### User Stories
+- These are the behaviours/features that the application implements for use by a user.
+
+As a user I would like to:
+
++ See various news sources.
++ Select the ones they prefer.
++ See the top news articles from that news source.
++ See the image, description and time the news article was created.S
++ Click on an article and read it fully from the news source.
+
 ### Tecnologies used
 + Python(3.8)
 + Flask
