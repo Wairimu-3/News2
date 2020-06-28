@@ -5,6 +5,10 @@
 - News app is an application created using python(3.8) and flask. It is a website where a user can view news from various news sources.
 + News app uses an API to access news from the source.
 
+### Application link
+
++ https://royalsnews.herokuapp.com/
+
 ### User Stories
 - These are the behaviours/features that the application implements for use by a user.
 
