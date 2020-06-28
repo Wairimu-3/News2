@@ -22,4 +22,6 @@
 
 - There are no known bugs.
 
-### Furthur assistance 
+### Further assistance 
+
++ For futher assistance contact me through:
