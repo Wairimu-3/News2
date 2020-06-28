@@ -20,7 +20,7 @@ As a user I would like to:
 + Python(3.8)
 + Flask
 
-### setup /Installation Requirements
+### setup /Installation instruction
 - First clone the repo $ git clone
 
 + After cloning, navigate to the project: $ cd news-updates
