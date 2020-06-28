@@ -27,3 +27,11 @@
 + For futher assistance contact me through:
 
 Email: Kimanimargaret46@gmail.com
+
+### License
+
+MIT licence
+
+https://choosealicense.com/licenses/mit/
+
+&copy 2020; Margaret Kimani
