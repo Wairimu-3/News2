@@ -1,0 +1,493 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+    #allmysources{
+        background-image: url("https://user-images.githubusercontent.com/44394821/80339215-d3392200-8866-11ea-8d6b-2f21fcc0f6f6.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .card{
+        background-color: rgba(27, 56, 63, 0.8);
+        color: cornsilk;
+    }
+    .card-title{
+        color: black;
+    }
+    </style>
+    
+  </head>
+  <body>
+    
+    <nav
+  class="navbar navbar-expand-lg navbar-light navbar-inverse navbar-toggleable-md "
+  role="navigation"
+  style="background-color: rgba(64, 119, 136, 0.9);"
+>
+  <a
+    class="navbar-brand"
+    href="/"
+    style="color: whitesmoke; font-size: 25px; padding: 5px;"
+    >NEWS</a
+  >
+  <button
+    type="button"
+    class="navbar-toggler"
+    data-target="#navbarSupportedContent" 
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false" 
+    aria-label="Toggle navigation"
+    data-toggle="collapse"   
+    aria-expanded="false"
+  >
+    <span class="navbar-toggler-icon" class="sr-only"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a
+          class="nav-link"
+          href="/"
+          style="color: whitesmoke; font-size: 15px; padding-left: 15px;"
+          >Home<span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item active">
+        <a
+          class="nav-link"
+          href="/News-Articles"
+          style="color: whitesmoke; font-size: 15px; padding-left: 15px;"
+        >
+          Trending News
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    
+    
+
+<div class="container-fluid" id="allmysources">
+  
+<div class="container" id="articles">
+  <div class="row">
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Hulu will stream IMAX’s gorgeous documentaries, but not in 4K</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://cdn.vox-cdn.com/thumbor/umsPORJpXnCiedKbZp7lH9qj5oA=/0x2:1280x672/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/20043818/beautiful_planet.jpg" alt="Hulu will stream IMAX’s gorgeous documentaries, but not in 4K" class="card-img" />
+          <p class="desc" style="font-size: 20px;">Hulu teamed up with IMAX to carry several of the technology giant’s original documentaries. While some of the footage has been updated for better quality, none of the titles will stream in 4K</p>
+          <p disabled>
+            Posted: 2020-06-19T18:04:16Z By: Julia Alexander
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.theverge.com/2020/6/19/21297027/hulu-imax-documenatry-films-beautiful-planet-stream-4k-hdr-support"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>All the tech in Ford’s most important vehicle: the...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://techcrunch.com/wp-content/uploads/2020/06/F-150_006.jpg?w=600" alt="All the tech in Ford’s most important vehicle: the 2021 F-150 truck" class="card-img" />
+          <p class="desc" style="font-size: 20px;">Ford rolled out all the stops Thursday evening for the reveal of its all-new F-150 truck, right down to the splashy videos dominated by electric guitar riffs. Heck, the automaker even cast the sharp-tongued Denis Leary as its MC. Of course, none of that reall…</p>
+          <p disabled>
+            Posted: 2020-06-26T03:30:57Z By: Kirsten Korosec
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="http://techcrunch.com/2020/06/25/all-the-tech-in-fords-most-important-vehicle-the-2021-f-150-truck/"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>EU states agree a tech spec for national coronavirus...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-1210894009.jpeg?w=640" alt="EU states agree a tech spec for national coronavirus apps to work across borders" class="card-img" />
+          <p class="desc" style="font-size: 20px;">European Union countries and the Commission have agreed on a technical framework to enable regional coronavirus contacts tracing apps to work across national borders. A number of European countries have launched contacts tracing apps at this point, with the a…</p>
+          <p disabled>
+            Posted: 2020-06-16T14:31:49Z By: Natasha Lomas
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="http://techcrunch.com/2020/06/16/eu-states-agree-a-tech-spec-for-national-coronavirus-apps-to-work-across-borders/"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>How Are You Salvaging This Summer for Your Kids?</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/esnr90duua3svenp7f4l.png" alt="How Are You Salvaging This Summer for Your Kids?" class="card-img" />
+          <p class="desc" style="font-size: 20px;">I’ll say it: This summer has been a  bummer so far, and it’s not looking like it’s going to get much better. As the school year wound down, and summer approached, my son would even say things like, “Well, I’m going to be on summer vacation soon, not that it m…</p>
+          <p disabled>
+            Posted: 2020-07-06T15:00:00Z By: Meghan Moravcik Walbert on Offspring, shared by Meghan Moravcik Walbert to Lifehacker
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://offspring.lifehacker.com/how-are-you-salvaging-this-summer-for-your-kids-1844237100"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>U.S. Fed buys $22.7 billion of mortgage bonds, sells...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://s4.reutersmedia.net/resources_v2/images/rcom-default.png" alt="U.S. Fed buys $22.7 billion of mortgage bonds, sells none - Reuters" class="card-img" />
+          <p class="desc" style="font-size: 20px;">The Federal Reserve bought $22.705 billion of agency mortgage-backed securities in the week</p>
+          <p disabled>
+            Posted: 2020-07-02T18:07:00Z By: Reuters Editorial
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.reuters.com/article/us-markets-mortgages-fed-idUSKBN2432XS"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>ASUS announces a trio of WiFi 6-capable mesh routers for $300</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://o.aolcdn.com/images/dims?resize=1200%2C630&amp;crop=1200%2C630%2C0%2C0&amp;quality=95&amp;image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-06%2F29435160-ace4-11ea-a2b7-668bb23179aa&amp;client=amp-blogside-v2&amp;signature=bfd926de39b4bd1e718f4e64365ebbf7ec99314b" alt="ASUS announces a trio of WiFi 6-capable mesh routers for $300" class="card-img" />
+          <p class="desc" style="font-size: 20px;">Over the last year, we’ve seen a variety of WiFi 6 routers and mesh systems make their way out to consumers, but few have been as affordable as the ZenWiFi AX Mini (XD4) three-piece bundle ASUS announced today. At $300, ASUS has priced its latest mesh router …</p>
+          <p disabled>
+            Posted: 2020-06-12T20:02:25Z By: Igor Bonifacic
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.engadget.com/asus-zenwifi-ax-mini-xd4-annoucement-200225056.html"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Razer&#39;s First Non-Gaming Headphones Give You a...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/cy5eg6njwchfyb18ovhe.jpg" alt="Razer&#39;s First Non-Gaming Headphones Give You a Sony-Like Experience For Less" class="card-img" />
+          <p class="desc" style="font-size: 20px;">Countless companies have tried to dethrone Sony from its noise-cancelling headphone throne, but none have succeeded. Now Razer is taking a different approach with its first pair of headphones designed for a wider consumer audience—not just gamers—by paying ho…</p>
+          <p disabled>
+            Posted: 2020-07-03T14:00:00Z By: Andrew Liszewski
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://gizmodo.com/razers-first-non-gaming-headphones-give-you-a-sony-like-1844212169"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>How to Get an Ill-Advised Number of Free Burgers This Month</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/yg0pzlcmyvtynb46eifa.jpg" alt="How to Get an Ill-Advised Number of Free Burgers This Month" class="card-img" />
+          <p class="desc" style="font-size: 20px;">If you’re a fan of free food and other deals, Burger King has set a trap for you and is leaving it up for the entire month of June. A quick look at the “offers” section of their website yields specials galore—including a few giving away free burgers. Intrigue…</p>
+          <p disabled>
+            Posted: 2020-06-11T17:45:00Z By: Elizabeth Yuko
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://lifehacker.com/how-to-get-an-ill-advised-number-of-free-burgers-this-m-1843996430"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Hong Kong confronts new security law as activist warns...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://shawglobalnews.files.wordpress.com/2020/07/2020-07-01t081740z_335375719_rc28kh9v7yoh_rtrmadp_3_hongkong-protests-anniversary.jpg?quality=85&amp;strip=all&amp;w=720&amp;h=379&amp;crop=1" alt="Hong Kong confronts new security law as activist warns none are safe - Global News" class="card-img" />
+            Posted: 2020-07-01T21:24:50Z By: Amanda Connolly
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="http://globalnews.ca/news/7129351/hong-kong-security-law-china/"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Column: Crop Watch - Corn, soy conditions hold as...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://s2.reutersmedia.net/resources/r/?m=02&amp;d=20200706&amp;t=2&amp;i=1524790343&amp;w=1200&amp;r=LYNXMPEG6519F" alt="Column: Crop Watch - Corn, soy conditions hold as critical weather period begins - Reuters UK" class="card-img" />
+          <p class="desc" style="font-size: 20px;">Temperatures were warm and rainfall was mostly spotty last week, but none of the U.S. Crop Watch growers reduced condition scores for their corn and soybean fields.</p>
+          <p disabled>
+            Posted: 2020-07-06T16:19:00Z By: Karen Braun
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://uk.reuters.com/article/us-usa-grains-braun-idUKKBN24726A"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>No fans, just cows in campsites ahead of closed...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://s4.reutersmedia.net/resources/r/?m=02&amp;d=20200701&amp;t=2&amp;i=1524326098&amp;w=1200&amp;r=LYNXMPEG604CZ" alt="No fans, just cows in campsites ahead of closed Austrian GP - Reuters UK" class="card-img" />
+          <p class="desc" style="font-size: 20px;">The signage outside the Red Bull Ring declares &#39;Welcome Race Fans&#39; but none were to be seen on Wednesday as the Austrian circuit prepared for Formula One&#39;s first Grand Prix without spectators.</p>
+          <p disabled>
+            Posted: 2020-07-01T19:02:00Z By: Leonhard Foeger
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://uk.reuters.com/article/uk-motor-f1-austria-idUKKBN24274O"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>How to Keep Your WhatsApp Number Out of Google Search Results</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/nbgq4742xyazo6fnv9m3.jpg" alt="How to Keep Your WhatsApp Number Out of Google Search Results" class="card-img" />
+          <p class="desc" style="font-size: 20px;">If you use WhatsApp’s Click to Chat feature, your phone number may be showing up in Google search results.Read more...</p>
+          <p disabled>
+            Posted: 2020-06-08T18:15:00Z By: Brendan Hesse
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://lifehacker.com/how-to-keep-your-whatsapp-number-out-of-google-search-r-1843953808"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>FEATURE -Hunger or coronavirus? In fast-growing Kabul,...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://s4.reutersmedia.net/resources_v2/images/rcom-default.png" alt="FEATURE -Hunger or coronavirus? In fast-growing Kabul, poor Afghans dice with death - Reuters" class="card-img" />
+          <p class="desc" style="font-size: 20px;">KABUL (Thomson Reuters Foundation) - Shir Jan came to Kabul 10 years ago, excited by the Afghan capital&#39;s modern buildings, many lights and the promise of a better life - but none of his dreams have materialised and the new coronavirus pandemic has reduced hi…</p>
+          <p disabled>
+            Posted: 2020-06-24T00:02:00Z By: Stefanie Glinski
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.reuters.com/article/us-health-coronavirus-afghanistan-featur-idUSKBN23V005"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>&#39;Game without rules&#39;: In Belarus loyalists turn on...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://s2.reutersmedia.net/resources/r/?m=02&amp;d=20200703&amp;t=2&amp;i=1524546366&amp;w=1200&amp;r=LYNXMPEG620TC" alt="&#39;Game without rules&#39;: In Belarus loyalists turn on president before election - Reuters" class="card-img" />
+          <p class="desc" style="font-size: 20px;">Belarusian President Alexander Lukashenko, once dubbed the last dictator in Europe by Washington, has seen protests come and go in his 26 years in power, but none quite like the one that is rippling through his usually loyal support base now.</p>
+          <p disabled>
+            Posted: 2020-07-03T12:35:00Z By: Andrei Makhovsky
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.reuters.com/article/us-belarus-election-idUSKBN2441JB"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Watch this Pokémon Go commercial directed by Rian Johnson</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://cdn.vox-cdn.com/thumbor/xNmFimZqZs2t-exhCYBv6wA6HhY=/19x0:1062x546/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/20068912/Screen_Shot_2020_07_06_at_11.54.42_AM.png" alt="Watch this Pokémon Go commercial directed by Rian Johnson" class="card-img" />
+          <p class="desc" style="font-size: 20px;">Rian Johnson, director of movies like Knives Out and Star Wars: The Last Jedi, has directed a new commercial promoting Pokémon Go Fest 2020.</p>
+          <p disabled>
+            Posted: 2020-07-06T16:05:00Z By: Andrew Webster
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.theverge.com/2020/7/6/21314533/pokemon-go-fest-2020-commercial-rian-johnson-watch"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>5 of the best smartwatches for your kids</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://mondrian.mashable.com/2020%252F06%252F03%252Ffa%252Facab5057c0eb451698ad15006e3bf587.49479.png%252F1200x630.png?signature=u8UhyuBn8A-ynIISAlMiL5kSONI=" alt="5 of the best smartwatches for your kids" class="card-img" />
+          <p class="desc" style="font-size: 20px;">The percentage of kids who have a smartphone grows by the year, and this trend is seemingly only going in one direction. Kids start begging for their own phone as soon as they can talk (or at least it probably feels that way to parents who are always handing …</p>
+          <p disabled>
+            Posted: 2020-06-09T04:00:00Z By: Joseph Green
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://mashable.com/uk/roundup/best-smartwatches-for-kids-uk/"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Pokémon Café Mix Is Nothing New, But It Sure Is Cute</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/up3c0v1hrd59coqlwq5j.gif" alt="Pokémon Café Mix Is Nothing New, But It Sure Is Cute" class="card-img" />
+          <p class="desc" style="font-size: 20px;">I’ve played many free mobile games that function almost exactly like Pokémon Café Mix, but none that prominently feature a super-adorable Charmander who I would follow anywhere and give my life to defend. Read more...</p>
+          <p disabled>
+            Posted: 2020-06-24T14:00:00Z By: Mike Fahey
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://kotaku.com/pokemon-cafe-mix-is-nothing-new-but-it-sure-is-cute-1844145989"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>&#39;Several&#39; snooker players pull out of world...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://i.guim.co.uk/img/media/592991aa9f6b47ba75a2b3e8e02c2d342c8ea98a/49_276_3204_1923/master/3204.jpg?width=1200&amp;height=630&amp;quality=85&amp;auto=format&amp;fit=crop&amp;overlay-align=bottom%2Cleft&amp;overlay-width=100p&amp;overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&amp;enable=upscale&amp;s=a01d181baedf4b6261c69c68f98e5fda" alt="&#39;Several&#39; snooker players pull out of world championships in Sheffield" class="card-img" />
+          <p class="desc" style="font-size: 20px;">&lt;ul&gt;&lt;li&gt;Former world No 5 Marco Fu among those opting out&lt;/li&gt;&lt;li&gt;None of current top 16 are among the withdrawals&lt;/li&gt;&lt;/ul&gt;Snooker’s governing body has confirmed that “several” players have withdrawn from this year’s world championship, which begins later th…</p>
+          <p disabled>
+            Posted: 2020-07-02T12:26:17Z By: PA Media
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://amp.theguardian.comsport/2020/jul/02/several-players-have-declined-to-travel-for-world-snooker-championships"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Supercut Exposes The Ugly Truth Of Trump’s Protests Rhetoric</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://img.huffingtonpost.com/asset/5ee339263000006b2b157be7.jpeg?cache=Di7siKAfPp&amp;ops=1200_630" alt="Supercut Exposes The Ugly Truth Of Trump’s Protests Rhetoric" class="card-img" />
+          <p class="desc" style="font-size: 20px;">“None of this is beautiful. End this ugly presidency,&#34; ends the montage released by a new progressive PAC.</p>
+          <p disabled>
+            Posted: 2020-06-12T08:21:25Z By: Lee Moran
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.huffpost.com/entry/donald-trump-ugly-presidency-meidas-touch_n_5ee332c9c5b6b13c3bdb5f23"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-12">
+      <div class="card" style="padding: 10px;margin-bottom: 20px">
+        <div class="card-header title">
+          <h4>Bad Bunny Speaks Out on Black Lives Matter Protests:...</h4>
+        </div>
+        <div class="card-body">
+          <img src="https://api.time.com/wp-content/uploads/2020/06/bad-bunny-puerto-rico.jpg?quality=85&amp;w=1024&amp;h=628&amp;crop=1" alt="Bad Bunny Speaks Out on Black Lives Matter Protests: ‘Living in a World Like This, None of Us Can Breathe’" class="card-img" />
+          <p class="desc" style="font-size: 20px;">The Puerto Rican artist has been uncharacteristically silent since protests have swept the globe. Now, he provides his first statement to TIME.</p>
+          <p disabled>
+            Posted: 2020-06-12T23:59:34Z By: Raisa Bruner
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://time.com/5852446/bad-bunny-black-lives-matter/"
+            ><button class="btn btn-md btn-info">Read Article</button></a
+          >
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+</div>
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
